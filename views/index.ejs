@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MVC exam</title>
+</head>
+<body>
+    <h1>This is an exam for</h1>
+    <h1>Chatnatee Khamlue 2210113</h1>
+    <ul>
+        <li>
+            <button onclick="navigateToPage('blue')">Flowers</button>
+        </li>
+        <li>
+            <button onclick="navigateToPage('green')">Tree</button>
+        </li>
+        <li>
+            <button onclick="navigateToPage('red')">Cars</button>
+        </li>
+    </ul>
+
+    <script>
+        function navigateToPage(color) {
+            switch (color) {
+                case 'blue':
+                    window.location.href = 'blue.html';
+                    break;
+                case 'green':
+                    window.location.href = 'green.html';
+                    break;
+                case 'red':
+                    window.location.href = 'red.html';
+                    break;
+                default:
+                    break;
+            }
+        }
+    </script>
+</body>
+</html>
